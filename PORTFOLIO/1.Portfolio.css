@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+
+body{
+    
+    
+    color: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgb(0, 0, 0),rgb(49, 48, 48),rgb(0, 0, 0));
+}
+
+.header{
+ 
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    position: relative;
+    font-size: 28px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 28px;
+}
+
+.navbar a {
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 70px;
+    transition: .3s;
+}
+
+
+.navbar a:hover{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: underline;
+    color: rgb(239, 50, 68);
+    
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    justify-content:space-between ;
+    height:100vh ;
+    background: url(Purple\Ittustrated\Mountain\Desktop\Mallpaper.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+    color:rgb(239, 50, 68);
+}
+
+.home .rightpart img{
+    border-radius: 50%;
+    width: 45%;
+    margin-left: 45%;
+    
+}
+
+
+.WorkExp{
+    max-width: 80vw;
+    margin: auto;
+    height: 67vh;
+    margin-top: 30px;
+}
+.WorkExp{
+    h1{
+        font-size: 1.9rem;
+        color: rgb(239, 50, 68);
+    }
+}
+.WorkExp .box{
+    width: 80vh;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.WorkExp h3{
+    margin-top: 35px;
+}
+
+
+footer{
+    text-align: center;
+    height: 130px;
+   
+}
+
+.footer  .Icons img{
+    width: 40px;
+     height: 40px;
+}
+ .footer .Icons i{
+  display:inline-flex ;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent ;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0 17px;
+}
+
+.footer .Icons i:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+} 
+
+.contact-me h3{
+    color: rgb(239, 50, 68);
+}
+
+.footer .cpyrtsec{
+    background-color:rgb(205, 30, 48);
+    height: 60px;
+    margin-top: 50px;
+    padding: 20px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
